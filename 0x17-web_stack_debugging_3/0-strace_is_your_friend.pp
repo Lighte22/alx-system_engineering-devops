@@ -1,3 +1,6 @@
-#!/usr/bin/env bash
-# Runs the whoami command under the user passed as argument.
-sudo -u "$1" whoami
+# Fixes bad `phpp` extensions to `php` in the WordPress file `wp-settings.php`.
+
+exec { 'fix-wordpress':
+  command => 'sed -i s/phpp/php/g /var/www/html/wp-settings.php',
+  path    => '/usr/local/bin/:/bin/'
+}
