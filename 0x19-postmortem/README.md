@@ -1,5 +1,5 @@
 # 0x19-postmortem
-![I WILL FIND YOU AND I WILL FIX YOU](https://miro.medium.com/max/1400/0*kHoWD7gJ0PC9GmBK.jpg)
+https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/294/pQ9YzVY.gif
 # Issue Summary
 30/03/2022 From 9:15 AM to 10:00 AM UTC+1 all requests for the homepage to our servers got a 404 response
 
